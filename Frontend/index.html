@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form with Validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Form Validation</h1>
+        <form action="" method="">
+            <label for="f-name">First Name: </label>
+            <input type="text" id="first-name" name="firstname" placeholder="Emily" required>
+            <label for="m-name">Middle Name: </label>
+            <input type="text" id="middle-name" name="middlename" placeholder="Rose" required>
+            <label for="l-name">Last Name: </label>
+            <input type="text" id="last-name" name="lastname" placeholder="Johnson" required>
+
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email" placeholder="mailto:emily.rose.johnson@example.com" required>
+
+            <label for="">Gender: 
+                <input type="radio" id="male" name="male"> Male
+                <input type="radio" id="female" name="female"> Female
+                <input type="radio" id="other" name="other"> Other
+            </label>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
