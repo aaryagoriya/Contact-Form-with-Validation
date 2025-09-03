@@ -6,6 +6,10 @@
     font-family: "Poppins", sans-serif;
 }
 
+.heading{
+    
+}
+
 .heading h1{
     font-size: 40px;
     font-weight: 700;
@@ -13,3 +17,18 @@
     margin: 20px;
 }
 
+form{
+    width: 800px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+label{
+    font-weight: 500;
+    display: block;
+}
+
+input{
+    padding: 2px 32px;
+}

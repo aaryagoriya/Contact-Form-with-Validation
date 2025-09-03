@@ -2,6 +2,6 @@
 
 1. Frontend - HTML, CSS
 
-2. Backend - PHP
+2. Backend - PYTHON
 
 3. Database - SQL
